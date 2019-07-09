@@ -1,0 +1,84 @@
+$font-color: #333;
+$bg-color: #fff;
+$primary-color: #d6c45e;
+$secondary-color: #e2e2e2;
+$dark-bg: #231f20;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+
+body {
+  background: $font-color;
+  color: $bg-color;
+  overflow-x: hidden;
+}
+
+#home-section {
+  background: url("../img/home_bg.jpg") no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+  min-height: 675px;
+
+  .home-inner {
+    padding-top: 200px;
+  }
+
+  .car-price {
+    position: absolute;
+    top: 380px;
+    left: 0;
+  }
+
+  .card-border {
+    border: 8px solid $bg-color;
+    padding: 10px;
+    width: 287px;
+    height: 442px;
+    border-radius: 5%;
+    position: absolute;
+    top: 20px;
+    left: 140px;
+  }
+
+  .card-bg {
+    background-color: $primary-color;
+    width: 260px;
+    height: 408px;
+    border-radius: 2%;
+    position: relative;
+    top: 0;
+    left: -5px;
+  }
+}
+
+#experience-section {
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+#interior-section {
+  background-color: $bg-color;
+
+  .img-interior {
+    width: auto;
+    min-height: 400px;
+  }
+}
+
+#edge-section {
+  background-color: $secondary-color;
+  color: $font-color;
+}
+
+#topsel-section {
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+#footer-section {
+  background-color: $dark-bg;
+  color: $bg-color;
+}
+
+#email-section {
+  background-color: $bg-color;
+  color: $font-color;
+}
