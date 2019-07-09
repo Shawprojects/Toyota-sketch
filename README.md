@@ -1,10 +1,10 @@
-# Bootstrap 4 Starter Pack (BETA 4.0.0)
+# Toyota Landing Page 
 
-Latest version of Bootstrap 4! Automation with Gulp and support for sass!
+Using Latest version of Bootstrap 4! Automation with Gulp and support for sass!
 
 ### Version
 
-2.0.0
+1.0.0
 
 ## Install Dependencies
 
